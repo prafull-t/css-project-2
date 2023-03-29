@@ -1,0 +1,504 @@
+/* *
+{
+  margin: 0px;
+  padding: 0px;
+} */
+
+
+.head {
+  color: rgb(0, 138, 252);
+}
+.absolute
+{
+  position: absolute;
+  top: 50px;
+  text-align: right;
+  right: 100px;
+  }
+.container
+{
+  display: flex;
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+  height: 850px;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 100px;
+  justify-content: center;
+  
+}
+
+.child
+{
+  background-color: rgb(255, 255, 255);
+  width: 25%;
+  height: 350px;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.child:hover
+{
+  box-shadow: 0px 0px 10px 5px rgb(199, 199, 199);
+}
+
+.list {
+  color: rgb(0, 138, 252);
+  
+}
+.link
+{
+  font-size:larger ;
+  text-decoration-line: none;
+  color: rgb(0, 0, 0);
+  padding-left: 10px;
+ 
+}
+.fa-circle-plus
+{
+  color: rgb(0, 132, 255);
+  text-decoration-line: none;
+}
+.strike {
+  text-decoration-line: line-through;
+  color: rgb(180, 180, 180);
+}
+.flexbox
+{
+  display: flex;
+  position: relative;
+}
+.popup
+{
+  border-radius: 7px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 40%;
+  margin-top: 20%;
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 2px;
+  box-shadow: 0px 0px 10px 5px rgb(199, 199, 199);
+  }
+  
+.fa-xmark
+{
+  position: absolute;
+  color: rgb(168, 168, 168);
+  top: 40px;
+  right: 20px;
+}
+.backg
+{
+  position: relative;
+  filter: blur(1px);
+  width: 100%;
+}
+.addtask
+{color: white;
+  background-color:rgb(0, 132, 255);
+  padding: 1px;
+  width: 150px;
+  height: auto;
+  text-align: center;
+  border-radius: 6px;
+  transform: translate(250px) translateY(5px); 
+}
+
+.page3
+{
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+}
+
+.child1
+{
+  box-shadow: 0px 0px 10px 8px rgb(216, 216, 216);
+  padding: 20px;
+}
+
+.backto
+{
+  position: absolute;
+  text-decoration-line: none;
+  top: 100px;
+  left: 36%;
+}
+.addto
+{
+  position: absolute;
+  text-decoration-line: none;
+  top: 100px;
+  right: 36%;
+}
+
+.head1 
+{
+  font-weight: bolder;
+  text-align: center;
+}
+.popup1
+{
+  border-radius: 7px;
+  position: absolute;
+  z-index: 1;
+  top: 24%;
+  left: 36.5%;
+  background-color: rgb(255, 255, 255);
+  width: 25%;
+  height: 250px;
+  padding: 20px;
+  box-shadow: 2px;
+  box-shadow: 0px 0px 10px 5px rgb(199, 199, 199);
+  }
+
+  .addtask1
+{color: white;
+  background-color:rgb(0, 132, 255);
+  padding: 1px;
+  width: 150px;
+  height: auto;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute; 
+  right: 15px;
+}
+
+
+
+
+@media screen and ( min-width:320px ) and (max-width: 500px)
+{
+ *
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.head {
+  color: rgb(0, 138, 252);
+}
+.absolute
+{
+  position: absolute;
+  top: 20px;
+  text-align: right;
+  right: 50%;
+  }
+  .link
+{
+  display: none;
+ }
+.container
+{
+display: flex; 
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 300%;
+ 
+}
+.list {
+  color: rgb(0, 138, 252);
+}
+
+.child
+{
+
+  line-height: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 75%;
+  height: 300px;
+  border-radius: 6px;
+  padding: 30px;
+  font-size: x-large;
+  
+}
+
+
+
+.popup
+{
+  border-radius: 7px;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 5px rgb(199, 199, 199);
+  line-height: 30px;
+  }
+  
+.fa-xmark
+{
+  position: absolute;
+  color: rgb(168, 168, 168);
+  left: 85%;
+  top: 5%;
+}
+.backg
+{
+  position: absolute;
+  
+  filter: blur(1px);
+  width: 100%;
+}
+.addtask
+{color: white;
+  background-color:rgb(0, 132, 255);
+  padding: 5px;
+  width: 140px;
+  height: auto;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute; 
+ 
+}
+
+
+
+.page3
+{
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+}
+
+.child1
+{
+  box-shadow: 0px 0px 10px 8px rgb(216, 216, 216);
+  padding: 20px;
+}
+
+.backto
+{
+  position: absolute;
+  text-decoration-line: none;
+  top: 100px;
+  left: 36%;
+}
+.addto
+{
+  position: absolute;
+  text-decoration-line: none;
+  top: 100px;
+  right: 36%;
+}
+
+.head1 
+{
+  font-weight: bolder;
+  text-align: center;
+}
+.popup1
+{
+  border-radius: 7px;
+  position: absolute;
+  z-index: 1;
+  top: 24%;
+  left: 5%;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 250px;
+  padding: 20px;
+  box-shadow: 2px;
+  box-shadow: 0px 0px 10px 5px rgb(199, 199, 199);
+  line-height: 30px;
+  }
+
+  .addtask1
+{color: white;
+  background-color:rgb(0, 132, 255);
+  padding: 3px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute; 
+  right: 20px;
+}
+ 
+}
+
+
+
+
+
+@media screen and ( min-width:501px ) and (max-width: 1000px)
+{
+ *
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.head {
+  color: rgb(0, 138, 252);
+}
+.absolute
+{
+  position: absolute;
+  top: 20px;
+  text-align: right;
+  right: 36%;
+  }
+  .link
+{
+  font-size:larger ;
+  text-decoration-line: none;
+  color: rgb(0, 0, 0);
+  padding-left: 10px;
+ }
+.container
+{
+display: flex; 
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 300%;
+ 
+}
+.list {
+  color: rgb(0, 138, 252);
+}
+
+.child
+{
+
+  line-height: 50px;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 300px;
+  border-radius: 6px;
+  padding: 30px;
+  font-size: x-large;
+  
+}
+
+
+
+.popup
+{
+  border-radius: 7px;
+  position: absolute;
+  top: 30%;
+  right: 23%;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 50%;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 5px rgb(199, 199, 199);
+  line-height: 30px;
+  }
+  
+.fa-xmark
+{
+  position: absolute;
+  color: rgb(168, 168, 168);
+  left: 85%;
+  top: 5%;
+}
+.backg
+{
+  position: absolute;
+  
+  filter: blur(1px);
+  width: 100%;
+}
+.addtask
+{color: white;
+  background-color:rgb(0, 132, 255);
+  padding: 5px;
+  width: 140px;
+  height: auto;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute; 
+  right: 70%;
+ 
+}
+
+
+
+.page3
+{
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+}
+
+.child1
+{
+  box-shadow: 0px 0px 10px 8px rgb(216, 216, 216);
+  padding: 20px;
+}
+
+.backto
+{
+  position: absolute;
+  text-decoration-line: none;
+  top: 100px;
+  left: 15%;
+}
+.addto
+{
+  position: absolute;
+  text-decoration-line: none;
+  top: 100px;
+  right: 15%;
+}
+
+.head1 
+{
+  font-weight: bolder;
+  text-align: center;
+}
+.popup1
+{
+  border-radius: 7px;
+  position: absolute;
+  z-index: 1;
+  top: 24%;
+  left: 22%;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 250px;
+  padding: 20px;
+  box-shadow: 2px;
+  box-shadow: 0px 0px 10px 5px rgb(199, 199, 199);
+  line-height: 30px;
+  }
+
+  .addtask1
+{color: white;
+  background-color:rgb(0, 132, 255);
+  padding: 3px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute; 
+  right: 20px;
+}
+ 
+}
